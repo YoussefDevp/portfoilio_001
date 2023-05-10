@@ -15,7 +15,8 @@ body {
 }
 
 .container {
-  padding: 2rem 4rem;
+  padding: 4rem 0;
+  margin: 0 auto;
 }
 
 .s-heading {
@@ -116,56 +117,37 @@ body {
   filter: brightness(120%);
 }
 
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1120px;
-  margin: 0 auto;
-}
-.about .profil-img img {
-  width: 450px;
+#about .container .about .profil-img img {
+  width: 100%;
   border-radius: 15px;
-  box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.1);
+  box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.094);
 }
-.about .content {
-  margin-right: 4rem;
-}
-.about .content p {
+#about .container .about .content p {
   margin: 2rem 0;
 }
 
 #work {
-  height: 100vh;
-  padding: 2rem 0;
-  background-color: #1d277d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: #1d277d;
 }
-#work .cards {
-  display: flex;
-  justify-content: center;
+#work .container {
+  text-align: center;
+  margin: 0 auto;
 }
-#work .cards:not(:last-child) {
-  margin-bottom: 2rem;
+#work .container .cards {
+  text-align: center;
 }
-#work .cards .card {
+#work .container .cards .card {
   background: white;
   padding: 1rem;
   border-radius: 5px;
 }
-#work .cards .card:not(:last-child) {
-  margin-right: 2rem;
-}
-#work .cards .card:hover {
+#work .container .cards .card:hover {
   transform: scale(1.04);
   box-shadow: 0px 10px 39px 10px rgba(2, 254, 254, 0.231);
   transition: all 300ms ease-out;
 }
-#work .cards .card img {
-  width: 250px;
+#work .container .cards .card img {
+  width: 100%;
 }
 
 footer {

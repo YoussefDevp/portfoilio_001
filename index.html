@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./dist/bootstrap-grid.css"> -->
+    <link rel="stylesheet" href="./dist/bootstrap-grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
    <title>Document</title>
 </head>
 <body>
     
-    <div id="header" class="container">
-        <div class="nav">
+    <div id="header">
+        <div class="container">    
+             <div class="nav">
             <img src="./img/Logo.png" alt="LOGO" srcset="">
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -30,10 +32,14 @@
             </div>
         </div>
     </div>
+</div>
+</div>
 
-    <section class="about container">
-        <div id="about" class=" content">
-            <h2 class="s-heading"><span>Youssef </span>Medmourh</h2>
+<section id="about">
+<div class="container">
+    <div class="about row">
+      <div class="col-md-auto col-6  content">
+        <h2 class="s-heading"><span>Youssef </span>Medmourh</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ducimus ea rem, numquam sit veritatis harum! Culpa distinctio, tempora eligendi error cupiditate ex quam, molestias in aspernatur saepe ipsa sunt!</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim in quo, dolorum error quis non voluptates dolorem doloremque. Reprehenderit temporibus unde culpa ab repudiandae commodi fugit, totam expedita magnam sapiente?</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ducimus dolor soluta nulla vel est et impedit consequatur expedita, reiciendis odit tempora voluptatem quod iure, at nam optio sed sunt!</p>
@@ -41,54 +47,63 @@
             <div class="social-links">
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-twitter"></i>
             </div>
-        </div>
-        <div class="profil-img">
-            <img src="./img/pexels-pixabay-220453.jpg" alt="" srcset="">
-        </div>
-    </section>
+      </div>
+      <div class="col-md-auto col-6  profil-img">
+        <img src="./img/pexels-pixabay-220453.jpg" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+</section>
+
+    
 
 
-    <section id="work" class="proyectos container">
+    <div id="work">
+    <div class="container">
         <h2 class="s-heading light"><span>Mi</span> Proyectos</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
+        <div class="row cards">
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
                 <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
+          </div>
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="row cards">
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
                 <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-           </div> 
-        <div class="cards">
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card">
-                <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </div>       
-    </section>
+          </div>
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="card col-3">
+            <img src="./img/Capture.PNG" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
 
     <section id="contact" class="container" style="height: 70vh;">
             <form action="" method="get">
@@ -115,7 +130,7 @@
             </svg>
           </svg>
           <div class="social">
-            
+
           </div>
     </footer>
 </body>
