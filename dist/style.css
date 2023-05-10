@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding: 2rem 4rem;
+}
+
+.btn-white {
+  padding: 1rem 1.5rem;
+  border: 2px white solid;
+  border-radius: 5px;
+}
+
+.btn-green {
+  padding: 1rem 1.5rem;
+  background: #03C988;
+  border: 2px #03C988 solid;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(29, 39, 125, 0.7098039216), rgba(29, 39, 125, 0.7098039216)), url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+}
+#header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .nav ul {
+  display: flex;
+  padding: 2rem 4rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+#header .nav ul li {
+  list-style: none;
+}
+#header .nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+}
+#header .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+#header .intro h1 {
+  color: white;
+  font-size: 250%;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+#header .intro h2 {
+  color: white;
+  font-size: 100%;
+}
+#header .intro h2 span {
+  color: #03C988;
+}
+#header .intro .buttons {
+  margin-top: 1.5rem;
+}
+#header .intro .buttons a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about .profil-img img {
+  width: 450px;
+  border-radius: 15px;
+}
+.about .content {
+  margin-right: 12rem;
+  width: 600px;
+}
+.about .content p {
+  margin: 2rem 0;
+}
+
+#work {
+  height: 100vh;
+  background-color: #1d277d;
+}/*# sourceMappingURL=style.css.map */
