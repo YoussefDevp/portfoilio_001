@@ -9,3 +9,9 @@
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 574px) {
+  #about .container .about .profil-img img {
+    width: 100%
+  }
+}
