@@ -79,6 +79,7 @@ body {
   color: #03C988;
 }
 .intro .buttons {
+  display: flex;
   margin-top: 1.5rem;
 }
 .intro .buttons a {
@@ -156,7 +157,7 @@ body {
 }
 .from form > div label, .from input, .from textarea, .from button {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 1rem;
 }

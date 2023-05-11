@@ -1,6 +1,10 @@
 @media screen and (max-width: 768px) {
     #header .container .nav ul {
-      display: none;
+      display: none;     
+    }
+
+    #header .container .row .intro .bottuns a {
+      display: block;
     }
   }
   

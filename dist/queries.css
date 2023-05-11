@@ -2,4 +2,7 @@
   #header .container .nav ul {
     display: none;
   }
+  #header .container .row .intro .bottuns a {
+    display: block;
+  }
 }/*# sourceMappingURL=queries.css.map */
