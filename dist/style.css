@@ -30,7 +30,7 @@ body {
 #header {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(29, 39, 125, 0.7098039216), rgba(29, 39, 125, 0.7098039216)), url("../img/header-bg.jpg");
   background-size: cover;
