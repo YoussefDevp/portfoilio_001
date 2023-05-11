@@ -117,9 +117,13 @@ body {
   border-radius: 15px;
   box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.094);
 }
+#about .container .about .content .skills {
+  text-align: center;
+}
 #about .container .about .content .skills i {
   font-size: 250%;
   color: #1D277D;
+  margin-bottom: 2rem;
 }
 #about .container .about .content .skills i:not(:last-child) {
   margin-right: 2rem;

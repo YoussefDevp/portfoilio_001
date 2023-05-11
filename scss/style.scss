@@ -136,9 +136,11 @@ body {
         }   
             .content {
                 .skills {
+                    text-align: center;
                     i {
                         font-size: 250%;
                         color: #1D277D;
+                        margin-bottom: 2rem;
                         &:not(:last-child) {
                             margin-right: 2rem;
                         }
