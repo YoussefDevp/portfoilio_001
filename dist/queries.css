@@ -2,7 +2,10 @@
   #header .container .nav ul {
     display: none;
   }
-  #header .container .row .intro .bottuns a {
-    display: block;
+  #header .container .intro {
+    text-align: center;
+  }
+  #header .container .intro .buttons {
+    justify-content: center;
   }
 }/*# sourceMappingURL=queries.css.map */
