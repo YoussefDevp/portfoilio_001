@@ -117,8 +117,24 @@ body {
   border-radius: 15px;
   box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.094);
 }
+#about .container .about .content .skills i {
+  font-size: 250%;
+  color: #1D277D;
+}
+#about .container .about .content .skills i:not(:last-child) {
+  margin-right: 2rem;
+}
 #about .container .about .content p {
   margin: 2rem 0;
+  line-height: 1.8;
+}
+#about .container .about .content p span {
+  display: block;
+  text-decoration: underline;
+}
+#about .container .about .content p:last-of-type {
+  font-weight: 600;
+  font-size: 150%;
 }
 
 #work {
@@ -143,6 +159,19 @@ body {
   box-shadow: 0px 10px 39px 10px rgba(2, 254, 254, 0.231);
   transition: all 300ms ease-out;
 }
+#work .container .cards .card:hover p a {
+  color: #1D277D;
+}
+#work .container .cards .card p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+#work .container .cards .card p a:hover {
+  text-decoration: underline;
+  color: #03C988;
+  transition: all 300ms ease-out;
+}
 #work .container .cards .card img {
   width: 100%;
 }
@@ -157,9 +186,14 @@ body {
 }
 .from form > div label, .from input, .from textarea, .from button {
   display: block;
+  border: none;
   width: 100%;
   margin: 0 auto;
   padding: 1rem;
+  border-radius: 25px;
+}
+.from form > div label:focus, .from input:focus, .from textarea:focus, .from button:focus {
+  outline: none;
 }
 .from form button {
   color: white;
@@ -178,10 +212,11 @@ footer .row {
 footer .row p {
   font-size: 80%;
 }
-footer .row .social-icon i {
+footer .row .social-icon a {
+  color: white;
   font-size: 200%;
 }
-footer .row .social-icon i:not(:last-child) {
+footer .row .social-icon a:not(:last-child) {
   margin-right: 1.2rem;
 }
 footer .row .social-links ul {
@@ -201,4 +236,4 @@ footer .row .social-links ul li a {
 }
 footer .row .social-links ul li a:hover {
   text-decoration: underline;
-}/*# sourceMappingURL=style.css.map */
+}

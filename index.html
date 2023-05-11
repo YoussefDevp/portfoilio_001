@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="./dist/queries.css">
    <title>YM | Portfolio</title>
 </head>
-<body>
-    
+<body id="home">
     <div id="header">
         <div class="container p-3"> 
           <div class="nav my-5">
@@ -20,7 +19,6 @@
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#work">Work</a></li>
-                    <li><a href="#work">Skills</a></li>
                     <li><a class="btn-white" href="#contact ">Contact me</a></li>
                 </ul>
         </div>
@@ -41,14 +39,19 @@
     <div class="about row align-items-center justify-content-center">
       <div class="col-md-auto col-lg-6 content order-2">
         <h2 class="mt-5 s-heading"><span>Youssef </span>Medmourh</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ducimus ea rem, numquam sit veritatis harum! Culpa distinctio, tempora eligendi error cupiditate ex quam, molestias in aspernatur saepe ipsa sunt!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim in quo, dolorum error quis non voluptates dolorem doloremque. Reprehenderit temporibus unde culpa ab repudiandae commodi fugit, totam expedita magnam sapiente?</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ducimus dolor soluta nulla vel est et impedit consequatur expedita, reiciendis odit tempora voluptatem quod iure, at nam optio sed sunt!</p>
-            <p>Follow me on</p>
-            <div class="social-links">
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-twitter"></i>
+            <p>I am 24 year old self taught Junior Front End Developer Based in San Sebastian, Spain </p>
+            <p>I ve worked with some agencies over the years, I specialze in developing web apps,
+              my core skills are HTML, SASS, JavaScript, and Bootstap.
+            </p>
+            <p>Want to know more? Drop me a line:
+            <span>contact@youssefmedmourh.com </span></p>
+            <p>Skills:</p>
+            <div class="skills">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-git"></i>
             </div>
       </div>
       <div class="col-md-auto col-lg-6 profil-img order-2-md">
@@ -65,44 +68,32 @@
     <div class="container p-5">
         <h2 class="s-heading light"><span>Mi</span> Proyectos</h2>
         <div class="row cards">
-          <div class="card col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card col-sm-12 col-md-6 col-lg-6 ">
             <img src="./img/Capture.PNG" alt="" srcset="">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              <a href="#">visite site </a>|<a href="#"> source code</a>
+            </p>
           </div>
-          <div class="card col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card col-sm-12 col-md-6 col-lg-6 ">
             <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              <a href="#">visite site </a>|<a href="#"> source code</a>
+            </p>
           </div>
-          <div class="card col-sm-12 col-md-6 col-lg-3">
+          <div class="card col-sm-12 col-md-6 col-lg-6">
             <img src="./img/Capture.PNG" alt="" srcset="">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              <a href="#">visite site </a>|<a href="#"> source code</a>
+            </p>
           </div>
-          <div class="card col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card col-sm-12 col-md-6 col-lg-6 ">
             <img src="./img/Capture.PNG" alt="" srcset="">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              <a href="#">visite site </a>|<a href="#"> source code</a>
+            </p>
           </div>
-        </div>
-        <div class="row cards">
-          <div class="card col-sm-12 col-md-6 col-lg-3 ">
-            <img src="./img/Capture.PNG" alt="" srcset="">
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="card col-sm-12 col-md-6 col-lg-3 ">
-            <img src="./img/Capture.PNG" alt="" srcset="">
-                <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="card col-sm-12 col-md-6 col-lg-3 ">
-            <img src="./img/Capture.PNG" alt="" srcset="">
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="card col-sm-12 col-md-6 col-lg-3">
-            <img src="./img/Capture.PNG" alt="" srcset="">
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-        
+        </div>       
       </div>
-
     </div>
 
     
@@ -146,17 +137,17 @@
           <div class="container-fluid">
           <div class="row">
             <div class="social-icon">
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fa-brands fa-github"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-instagram"></i>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
             </div>
             <div class="social-links">
               <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
             <p>&copy; Youusef medmourh All Right Reserved 2023.</p>

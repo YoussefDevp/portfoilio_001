@@ -15,12 +15,6 @@ body {
     font-size: 16px;
 }
 
-// .container {
-//     // max-width: 1140px;
-//     // padding: 4rem 0;
-//     // margin: 0 auto;
-// }
-
 .s-heading {
     font-size: 280%;
     margin-bottom: 4rem;
@@ -141,9 +135,26 @@ body {
                 }
         }   
             .content {
-                // margin-right: 4rem;
+                .skills {
+                    i {
+                        font-size: 250%;
+                        color: #1D277D;
+                        &:not(:last-child) {
+                            margin-right: 2rem;
+                        }
+                    }
+                }
             p {
                 margin: 2rem 0;
+                line-height: 1.8;
+                & span {
+                    display: block;
+                    text-decoration: underline;
+                }
+                &:last-of-type {
+                    font-weight: 600;
+                    font-size: 150%;
+                }
                 }
             }
         }
@@ -160,19 +171,30 @@ body {
     .cards {
         text-align: center;      
         .card {
-            
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
             &:hover {
                 background: white;
                 color: #1d277d;
                 transform: scale(1.04);
                 box-shadow: 0px 10px 39px 10px rgba(2, 254, 254, 0.231);
                 transition: all 300ms ease-out;
+                p a {
+                    color: #1D277D;
+                }
             }
-            color: white;
-            padding: 1rem;
-            border-radius: 5px;
-                
-                img {
+            p a {
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+                &:hover {
+                    text-decoration: underline;
+                    color: #03C988;
+                    transition: all 300ms ease-out;
+                }
+            }
+            img {
                     width: 100%;
                 }
             }
@@ -191,11 +213,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     form > div label, input, textarea,button {
         display: block;
+        border: none;
         width: 100%;
         margin: 0 auto;
         padding: 1rem;
-
+        border-radius: 25px;
+        &:focus {
+            outline: none;
+        }
     }
+
+
     form button {
             color: white;
             margin-top: 2rem;
@@ -224,7 +252,8 @@ footer {
         font-size: 80%;
        }
         .social-icon {
-            i {
+            a {
+                color: white;
                 font-size: 200%;
                 &:not(:last-child) {
                     margin-right: 1.2rem;
