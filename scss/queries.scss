@@ -16,6 +16,23 @@
     }
   }
 }
+@media screen and (max-width: 540px) {
+
+  // Footer 540px
+  footer {  
+      .row {
+        p {
+          font-size: 80%;
+        }
+        .social-links {
+          ul li a {
+            font-size: 60%;
+          }
+        }
+      }
+    }
+  }
+
   // Nav-bar responsive
 @media screen and (max-width: 768px) {
   #header {
