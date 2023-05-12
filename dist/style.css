@@ -259,7 +259,6 @@ footer .row .social-links ul li:not(:last-child) {
 footer .row .social-links ul li a {
   color: white;
   text-decoration: none;
-  font-size: 120%;
 }
 footer .row .social-links ul li a:hover {
   text-decoration: underline;
