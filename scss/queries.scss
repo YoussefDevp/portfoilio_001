@@ -1,53 +1,87 @@
 @media screen and (max-width: 768px) {
-  #header .container .nav ul {
-    display: none;
-  }
-
-  #header .container .nav .hamburger {
-    display: block;
-
-    #header .container .nav .hamburger .active .bar:nth-child(2) {
-        opacity: 0;
+  // header
+  #header {
+    .container {
+      .intro {
+        text-align: center;
+        .buttons {
+          justify-content: center;
+        }
+      }
+      .nav {
+        .hamburger , ul  {
+          display: none;
+        }
+      }
     }
-    #header .container .nav .hamburger .active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45);
-    }
-    #header .container .nav .hamburger .active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45);
-    }
-
-    #header .container .nav .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 70px;
-      flex-direction: column;
-      background-color: #1d277d;
-      width: 100%;
-      text-align: center;
-      transition: 300ms;
-    }
-
-    #header .container .nav .nav-menu .nav-item {
-      margin: 1rem 0;
-    }
-
-    #header .container .nav .nav-menu .active {
-      left: 0;
-    }
-    }
-  
-     
-  #header .container .intro {
-    text-align: center;
-  }
-  #header .container .intro .buttons {
-    justify-content: center;
-  } 
-}
-
-@media screen and (max-width: 992px) {
-  #about .container .about .profil-img img {
-    width: 100%;
   }
 }
+  // Nav-bar responsive
+@media screen and (max-width: 768px) {
+  #header {
+    .container {
+      .nav {
+        .hamburger {
+          display: block;
+          .active .bar:nth-child(2) {
+            opacity: 0;
+          }
+          .active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45);
+          }
+          .active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45);
+        }
+      }
+        .nav-menu {
+          position: fixed;
+          left: -100%;
+          top: 70px;
+          flex-direction: column;
+          background-color: #1d277d;
+          width: 100%;
+          text-align: center;
+          transition: 300ms;
+          .nav-item {
+            margin: 1rem 0;
+            }
+            .active {
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  // about
+  @media screen and (max-width: 992px) {
+  #about {
+    .container {
+      .about {
+        .profil-img {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  // contact 
+  #contact {
+    .row {
+      .contact-img {
+        img {
+          width: 100%;
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+
 

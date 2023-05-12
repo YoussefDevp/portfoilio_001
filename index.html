@@ -14,26 +14,26 @@
 <body id="home">
     <div id="header">
         <div class="container p-3"> 
-          <div class="nav my-5">
+          <div class="nav">
             <img src="./img/LOGO.png" alt="LOGO" srcset="">
                 <ul class="nav-menu">
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#work">Work</a></li>
-                    <li class="nav-item"><a class="btn-white" href="#contact ">Contact me</a></li>
+                    <li class="nav-item"><a href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a href="#work">Proyectos</a></li>
+                    <li class="nav-item"><a class="btn-white" href="#contact ">Contacta conmigo</a></li>
                 </ul>
                 <div class="hamburger">
                   <div class="bar"></div>
                   <div class="bar"></div>
                   <div class="bar"></div>
-                </div>
+              </div>
         </div>
 
-             <div class=" intro row justify-content-center">                  
-            <h2><span> &lt;head&gt; </span>Holla, que tal? <span> &lt; /head &gt; </span></h2>
-            <h1>Soy Youssef, junior <br> web programador</h1>
+             <div class=" intro row">                  
+            <h2><span> &lt;head&gt; </span>Hola, ¿que tal? <span> &lt; /head &gt; </span></h2>
+            <h1>Soy Youssef, programador<br>web junior</h1>
             <div class="buttons">
-                <a href="#contact" class="btn-white">Contact Me</a>
-                <a href="#about" class="btn-green">About Me</a>
+                <a href="#contact" class="btn-white">Contacta conmigo</a>
+                <a href="#about" class="btn-green">Sobre mí</a>
         </div>
       </div>
     </div>
@@ -43,14 +43,13 @@
 <div class="container p-5">
     <div class="about row align-items-center justify-content-center">
       <div class="col-md-auto col-lg-6 content order-2">
-        <h2 class="mt-5 s-heading"><span>Youssef </span>Medmourh</h2>
-            <p>I am 24 year old self taught Junior Front End Developer Based in San Sebastian, Spain </p>
-            <p>I ve worked with some agencies over the years, I specialze in developing web apps,
-              my core skills are HTML, SASS, JavaScript, and Bootstap.
-            </p>
-            <p>Want to know more? Drop me a line:
+        <h2 class="mt-5 s-heading"><span>Sobre </span>mí</h2>
+            <p>Mi nombre es Youssef Medmourh, tengo 24 años y soy un Frontend Developer autodidacta viviendo en San Sebastián, España.</p>
+            <p>He trabajado con algunas agencias y estoy especializado en desarollar aplicaciones web.</p>
+            <p>Mis habilidades clave son HTML, SASS, JavaScript, y Bootstrap.</p>
+            <p>¿Quiéres conocer más sobre mí? Escríbeme algo:
             <span>contact@youssefmedmourh.com </span></p>
-            <p>Skills:</p>
+            <p>Conocimientos:</p>
             <div class="skills">
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-sass"></i>
@@ -71,30 +70,30 @@
 
     <div id="work">
     <div class="container p-5">
-        <h2 class="s-heading light"><span>Mi</span> Proyectos</h2>
+        <h2 class="s-heading light"><span>Mis</span> Proyectos</h2>
         <div class="row cards">
           <div class="card col-sm-12 col-md-6 col-lg-6 ">
             <img src="./img/Capture.PNG" alt="" srcset="">
             <p>
-              <a href="#">visite site </a>|<a href="#"> source code</a>
+              <a href="#">visite el sitio</a>|<a href="#"> código fuente</a>
             </p>
           </div>
           <div class="card col-sm-12 col-md-6 col-lg-6 ">
             <img src="./img/Capture.PNG" alt="" srcset="">
             <p>
-              <a href="#">visite site </a>|<a href="#"> source code</a>
+              <a href="#">visite el sitio</a>|<a href="#"> código fuente</a>
             </p>
           </div>
           <div class="card col-sm-12 col-md-6 col-lg-6">
             <img src="./img/Capture.PNG" alt="" srcset="">
             <p>
-              <a href="#">visite site </a>|<a href="#"> source code</a>
+              <a href="#">visite el sitio</a>|<a href="#"> código fuente</a>
             </p>
           </div>
           <div class="card col-sm-12 col-md-6 col-lg-6 ">
             <img src="./img/Capture.PNG" alt="" srcset="">
             <p>
-              <a href="#">visite site </a>|<a href="#"> source code</a>
+              <a href="#">visite el sitio</a>|<a href="#"> código fuente</a>
             </p>
           </div>
         </div>       
@@ -104,12 +103,15 @@
     
 
     <section id="contact" class="container p-5">    
-        <h2 class="s-heading "><span>Get in</span> touch</h2>
-        <div class="row contact justify-content-center">
+        <h2 class="s-heading "><span>Contacta</span> conmigo</h2>
+        <div class="row contact justify-content-center align-items-center">
+            <div class="contact-img col-sm-12 col-lg-6">
+              <img src="./img/Juseph_3.jpg" alt="" srcset="">
+            </div>         
           <div class="from col-sm-12 col-lg-6">
         <form action="#" method="post">
           <div>
-            <label for="name">Name:</label>
+            <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required>
           </div>
           <div>
@@ -117,15 +119,15 @@
             <input type="email" id="email" name="email" required>
           </div>
           <div>
-            <label for="subject">Subject:</label>
+            <label for="subject">Asunto:</label>
             <input type="text" id="subject" name="subject" required>
           </div>
           <div>
-            <label for="message">Message:</label>
+            <label for="message">Mensaje:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
           </div>
           <div>
-            <button class="btn-green" type="submit">Send Message</button>
+            <button class="btn-green" type="submit">Envíe mensaje</button>
           </div>
         </form>
       </div> 
@@ -149,10 +151,10 @@
             </div>
             <div class="social-links">
               <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#work">Proyectos</a></li>
+                <li><a href="#contact">Contacta conmigo</a></li>
               </ul>
             </div>
             <p>&copy; Youusef medmourh All Right Reserved 2023.</p>

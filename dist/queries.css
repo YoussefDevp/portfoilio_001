@@ -1,20 +1,28 @@
 @media screen and (max-width: 768px) {
-  #header .container .nav ul {
+  #header .container .intro {
+    text-align: center;
+  }
+  #header .container .intro .buttons {
+    justify-content: center;
+  }
+  #header .container .nav .hamburger, #header .container .nav ul {
     display: none;
   }
+}
+@media screen and (max-width: 768px) {
   #header .container .nav .hamburger {
     display: block;
   }
-  #header .container .nav .hamburger #header .container .nav .hamburger .active .bar:nth-child(2) {
+  #header .container .nav .hamburger .active .bar:nth-child(2) {
     opacity: 0;
   }
-  #header .container .nav .hamburger #header .container .nav .hamburger .active .bar:nth-child(1) {
+  #header .container .nav .hamburger .active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45);
   }
-  #header .container .nav .hamburger #header .container .nav .hamburger .active .bar:nth-child(3) {
+  #header .container .nav .hamburger .active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45);
   }
-  #header .container .nav .hamburger #header .container .nav .nav-menu {
+  #header .container .nav .nav-menu {
     position: fixed;
     left: -100%;
     top: 70px;
@@ -24,21 +32,19 @@
     text-align: center;
     transition: 300ms;
   }
-  #header .container .nav .hamburger #header .container .nav .nav-menu .nav-item {
+  #header .container .nav .nav-menu .nav-item {
     margin: 1rem 0;
   }
-  #header .container .nav .hamburger #header .container .nav .nav-menu .active {
+  #header .container .nav .nav-menu .active {
     left: 0;
-  }
-  #header .container .intro {
-    text-align: center;
-  }
-  #header .container .intro .buttons {
-    justify-content: center;
   }
 }
 @media screen and (max-width: 992px) {
   #about .container .about .profil-img img {
     width: 100%;
   }
-}
+  #contact .row .contact-img img {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}/*# sourceMappingURL=queries.css.map */
