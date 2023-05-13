@@ -9,7 +9,46 @@
     display: none;
   }
 }
+@media screen and (min-width: 541px) {
+  .container .about hr {
+    display: none;
+  }
+}
 @media screen and (max-width: 540px) {
+  #about .container .about h2 {
+    margin-bottom: 1.8rem !important;
+  }
+  #about .container .about hr {
+    border: 10px dotted #1d277d;
+    border-bottom: none;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #about .container .about .profil-img {
+    position: relative;
+  }
+  #about .container .about .profil-img img {
+    border-radius: 0px;
+  }
+  #about .container .about .profil-img .top-left {
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    border-left: 10px solid #1d277d;
+    border-top: 10px solid #1d277d;
+    height: 150px;
+    width: 150px;
+  }
+  #about .container .about .profil-img .bottom-right {
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    border-bottom: 10px solid #1d277d;
+    border-right: 10px solid #1d277d;
+    height: 150px;
+    width: 150px;
+  }
   footer .row p {
     font-size: 80%;
   }
