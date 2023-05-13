@@ -22,12 +22,16 @@
     .about  {
 
         hr {
-          display: none
+          display: none;
         }
     }
   }
 }
 @media screen and (max-width: 540px) {
+
+  #header {
+    height: 100vh;
+  }
 
   #about {   
     .container {

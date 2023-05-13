@@ -15,6 +15,9 @@
   }
 }
 @media screen and (max-width: 540px) {
+  #header {
+    height: 100vh;
+  }
   #about .container .about h2 {
     margin-bottom: 1.8rem !important;
   }
