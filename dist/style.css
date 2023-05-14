@@ -222,6 +222,7 @@ body {
   }
   #about .container .about .profil-img {
     position: relative;
+    margin: 3rem 0;
   }
   #about .container .about .profil-img img {
     border-radius: 0px;
