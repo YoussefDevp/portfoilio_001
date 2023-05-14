@@ -54,7 +54,7 @@ body {
 
 #header {
   display: flex;
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(29, 39, 125, 0.7098039216), rgba(3, 201, 135, 0.7098039216)), url("../img/header-bg.jpg");
   background-size: cover;
@@ -63,48 +63,17 @@ body {
 #header .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 #header .nav img {
   width: 60px;
 }
-#header .nav .hamburger {
-  display: none;
-  cursor: pointer;
-}
-#header .nav .hamburger .bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: white;
-  transition: all 300ms ease-in-out;
-}
-#header .nav ul {
-  display: flex;
-  padding: 2rem 4rem;
-  align-items: center;
-  justify-content: flex-end;
-  list-style: none;
-}
-#header .nav ul a {
-  text-decoration: none;
-  color: white;
-  margin-left: 2rem;
-  font-weight: 600;
-}
-#header .nav ul a:hover {
-  text-decoration: underline;
-  transition: all 300ms ease-in-out;
-}
-
-.intro {
+#header .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
-.intro h1 {
+#header .intro h1 {
   color: white;
   font-size: 250%;
   font-weight: 600;
@@ -112,18 +81,18 @@ body {
   line-height: 1.6;
   margin: 1rem 0;
 }
-.intro h2 {
+#header .intro h2 {
   color: white;
   font-size: 100%;
 }
-.intro h2 span {
+#header .intro h2 span {
   color: #03C988;
 }
-.intro .buttons {
+#header .intro .buttons {
   display: flex;
   margin-top: 1.5rem;
 }
-.intro .buttons a {
+#header .intro .buttons a {
   text-decoration: none;
   color: white;
   margin-right: 1rem;
@@ -136,60 +105,21 @@ body {
   #header .container .intro .buttons {
     justify-content: center;
   }
-  #header .container .nav .hamburger, #header .container .nav ul {
-    display: none;
-  }
-}
-@media screen and (max-width: 540px) {
-  #header {
-    height: 100vh;
-  }
-}
-@media screen and (max-width: 768px) {
-  #header .container .nav .hamburger {
-    display: block;
-  }
-  #header .container .nav .hamburger .active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  #header .container .nav .hamburger .active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45);
-  }
-  #header .container .nav .hamburger .active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45);
-  }
-  #header .container .nav .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    flex-direction: column;
-    background-color: #1d277d;
-    width: 100%;
-    text-align: center;
-    transition: 300ms;
-  }
-  #header .container .nav .nav-menu .nav-item {
-    margin: 1rem 0;
-  }
-  #header .container .nav .nav-menu .active {
-    left: 0;
-  }
 }
 #about .container .about .profil-img img {
   width: 70%;
   border-radius: 15px;
   box-shadow: 0px 10px 39px 10px rgba(62, 66, 66, 0.094);
 }
-#about .container .about .content .skills {
+#about .container .about .content h2 {
+  margin-bottom: 1.8rem !important;
+}
+#about .container .about .content hr {
+  border: 10px dotted #1d277d;
+  border-bottom: none;
+  width: 100px;
   text-align: center;
-}
-#about .container .about .content .skills i {
-  font-size: 250%;
-  color: #1D277D;
-  margin-bottom: 2rem;
-}
-#about .container .about .content .skills i:not(:last-child) {
-  margin-right: 2rem;
+  margin: 0 auto;
 }
 #about .container .about .content p {
   margin: 2rem 0;
@@ -203,23 +133,19 @@ body {
   font-weight: 600;
   font-size: 150%;
 }
-
-@media screen and (min-width: 540px) {
-  .container .about hr {
-    display: none;
-  }
+#about .container .about .content .skills {
+  text-align: center;
 }
+#about .container .about .content .skills i {
+  font-size: 250%;
+  color: #1D277D;
+  margin-bottom: 2rem;
+}
+#about .container .about .content .skills i:not(:last-child) {
+  margin-right: 2rem;
+}
+
 @media screen and (max-width: 540px) {
-  #about .container .about h2 {
-    margin-bottom: 1.8rem !important;
-  }
-  #about .container .about hr {
-    border: 10px dotted #1d277d;
-    border-bottom: none;
-    width: 100px;
-    text-align: center;
-    margin: 0 auto;
-  }
   #about .container .about .profil-img {
     position: relative;
     margin: 3rem 0;
@@ -252,7 +178,9 @@ body {
   }
 }
 #work {
-  background: #1d277d;
+  background-color: #1D277D;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23102075' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
 }
 #work .container {
   text-align: center;
