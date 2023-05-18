@@ -413,6 +413,12 @@ nav ul li {
 .projects {
   padding: 8rem 2rem;
 }
+.projects .container .return-btn {
+  background-color: rgba(68, 68, 68, 0.3411764706);
+  width: 220px;
+  padding: 1rem;
+  border-radius: 5px;
+}
 .projects .container .return-btn a, .projects .container .return-btn i {
   color: black;
 }

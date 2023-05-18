@@ -4,9 +4,14 @@
 
 .container {
     .return-btn {
+        background-color: #44444457;
+        width: 220px;
+        padding: 1rem;
+        border-radius: 5px;
         a , i {
             color: black;
         }
+
         i {
             margin-right: 1rem;
         }
