@@ -26,6 +26,11 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    &:hover {
+      padding-bottom: .5rem;
+      border-bottom: 4px solid #03C988;
+      transition: all 300ms ease-in-out;
+    }
   }
   
   .nav-toggle {
