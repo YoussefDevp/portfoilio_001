@@ -8,7 +8,3 @@ navLinks.forEach(link => {
     navToggleSpans.forEach(span => span.classList.remove('open'));
   });
 });
-
-navToggle.addEventListener('change', () => {
-  navToggleSpans.forEach(span => span.classList.toggle('open'));
-});
