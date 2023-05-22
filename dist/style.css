@@ -481,9 +481,6 @@ footer .row .social-links ul li a:hover {
 }
 
 @media screen and (max-width: 540px) {
-  footer .row {
-    margin-top: -5px;
-  }
   footer .row p {
     font-size: 80%;
   }
