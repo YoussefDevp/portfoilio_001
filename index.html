@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./dist/bootstrap-grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="shortcut icon" href="./img/Recurso 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./dist/style.css">
    <title>YM | Portfolio</title>
    <!-- Google tag (gtag.js) -->
@@ -41,7 +42,7 @@
           </ul>
         </nav>
 
-             <div class=" intro row">                  
+             <div data-aos="fade-up" class=" intro row">                  
             <h2><span> &lt;head&gt; </span>Hola, ¿qué tal? <span> &lt;/head&gt; </span></h2>
             <h1>Soy Youssef, programador<br>web junior</h1>
             <div class="buttons">
@@ -76,7 +77,7 @@
       </div>
       <div class="col-md-auto col-lg-6 profil-img order-2-md">
         <div class="top-left"></div>
-        <img class="img-fluid" src="./img/profil-img.jpg" alt="profil-img" srcset="">
+        <img data-aos="fade-right" class="img-fluid" src="./img/profil-img.jpg" alt="profil-img" srcset="">
         <div class="bottom-right"></div>
       </div>
     </div>
@@ -91,25 +92,25 @@
         <h2 class="s-heading light"><span>Mis</span> Proyectos</h2>
         <div class="row cards">
           
-          <div class="card col-sm-12 col-md-6 col-lg-6 ">
+          <div data-aos="fade-down-right" class="card col-sm-12 col-md-6 col-lg-6 ">
             <a href="#"><img src="./img/Captura1.png" alt="" srcset=""></a>
             <p>
               <a href="https://front-end-mentor-challlenge.netlify.app/">ir el sitio </a>|<a href="https://github.com/YoussefDevp/ClipBoard"> código fuente</a>
             </p>
           </div>
-          <div class="card col-sm-12 col-md-6 col-lg-6 ">
+          <div data-aos="fade-down-left" class="card col-sm-12 col-md-6 col-lg-6 ">
             <a href="#"><img src="./img/Captura2.png" alt="" srcset=""></a>
             <p>
               <a href="https://huddel-2.netlify.app/">ir el sitio </a>|<a href="https://github.com/YoussefDevp/Huddel-2"> código fuente</a>
             </p>
           </div>
-          <div class="card col-sm-12 col-md-6 col-lg-6">
+          <div data-aos="fade-up-left" class="card col-sm-12 col-md-6 col-lg-6">
             <a href="#"><img src="./img/Captura3.png" alt="" srcset=""></a>
             <p>
               <a href="https://news-home-page-dev.netlify.app/">ir el sitio </a>|<a href="https://github.com/YoussefDevp/News-homePage"> código fuente</a>
             </p>
           </div>
-          <div class="card col-sm-12 col-md-6 col-lg-6 ">
+          <div data-aos="fade-up-right" class="card col-sm-12 col-md-6 col-lg-6 ">
             <a href="#"><img src="./img/Captura4.png" alt="" srcset=""></a>
             <p>
               <a href="https://loopstudios.netlify.app/">ir el sitio </a>|<a href="https://github.com/YoussefDevp/loopstudios-landing-page"> código fuente</a>
@@ -126,8 +127,9 @@
         <div class="row contact justify-content-center align-items-center">
             <div class="contact-img col-sm-12 col-lg-6">
               <img src="./img/contact-img.jpg" alt="contact-img" srcset="">
-            </div>         
-          <div class="from col-sm-12 col-lg-6">
+            </div> 
+
+      <div data-aos="flip-left" class="from col-sm-12 col-lg-6">
         <form action="https://formspree.io/f/myyavjdw"
               method="POST">
           <div>
@@ -196,11 +198,14 @@
                 <li><a href="#contact">Contacta conmigo</a></li>
               </ul>
             </div>
-            <p>&copy; Youusef Medmourh Todos los derechos reservados 2023.</p>
+            <p>&copy; Youssef Medmourh Todos los derechos reservados 2023.</p>
           </div>
         </div>         
     </footer>
-    <script src="./js/script.js">
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 </html>
