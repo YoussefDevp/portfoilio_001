@@ -10,7 +10,7 @@ export function addFooter(){
   <div class="container-fluid">
     <div class="row info align-items-center">
       <div class="col-sm-12 col-lg-4">
-        <img src="./img/Logo.png" alt="">
+        <img src="../img/Logo.png" alt="">
       </div>
       <div class="col-sm-12 col-lg-4">
         <p>
@@ -41,7 +41,7 @@ export function addFooter(){
         <li><a href="#contact">Contacta conmigo</a></li>
       </ul>
     </div>
-    <p>&copy; Youusef Medmourh All Right Reserved 2023.</p>
+    <p>&copy; Youssef Medmourh All Right Reserved 2023.</p>
   </div>
 </div>`         
 }

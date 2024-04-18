@@ -7,8 +7,6 @@ const navLinks = document.querySelectorAll('.nav-link');
 const navToggleSpans = document.querySelectorAll('.nav-toggle-label span');
 
 navLinks.forEach(link => {
-  const href = link.href
-  console.log(href)
   link.addEventListener('click', () => {
     navToggle.checked = false;
     navToggleSpans.forEach(span => span.classList.remove('open'));
